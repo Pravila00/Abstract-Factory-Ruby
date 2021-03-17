@@ -15,6 +15,15 @@ module Sesion2
       return @@horario
     end
 
+    def run()
+      i=0
+      while i < @@horario  do
+        trabaja(i+1)
+        i +=1
+        sleep(1)
+      end
+    end
+
     public_class_method :new
   end
 end

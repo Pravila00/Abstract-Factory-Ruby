@@ -7,9 +7,12 @@ module Sesion2
       factoria_mercadona = Factoria_abstracta.new(0)
       factoria_dia = Factoria_abstracta.new(1)
       empleado_mercadona = factoria_mercadona.crear_personal
-      empleado_mercadona.trabaja(3)
       empleado_dia = factoria_dia.crear_personal
-      empleado_dia.trabaja(3)
+
+      thrM = Thread.new { empleado_mercadona.run() }
+      thrD = Thread.new { empleado_dia.run }
+      thrM.join
+      thrD.join
     end
   end
 
