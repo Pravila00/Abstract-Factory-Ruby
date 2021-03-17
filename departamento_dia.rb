@@ -1,11 +1,9 @@
 module Sesion2
-  class Departamento_dia
-    def intialize
-
+  require_relative 'prototipo_departamento.rb'
+  class Departamento_dia < Prototipo_departamento
+    def initialize(n)
+      @nombre= n
     end
-
-    def clone
-
-    end
+    public_class_method :new
   end
 end
