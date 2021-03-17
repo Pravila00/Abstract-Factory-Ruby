@@ -1,11 +1,12 @@
-odule Sesion2
-class Departamento_mercadona
-  def intialize
+module Sesion2
+  class Departamento_mercadona
+    def initialize
 
-  end
+    end
 
-  def clone
+    def clone
 
+    end
   end
 end
-end
+

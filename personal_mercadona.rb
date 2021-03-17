@@ -1,7 +1,7 @@
 module Sesion2
   class Personal_mercadona
-    def intialize
-
+    def intialize(n)
+      @nombre=n
     end
     def clone
 
