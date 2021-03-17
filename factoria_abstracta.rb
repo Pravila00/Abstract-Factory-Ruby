@@ -1,0 +1,2 @@
+class Factoria_abstracta
+end

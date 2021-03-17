@@ -1,0 +1,2 @@
+class Prototipo_departamento
+end

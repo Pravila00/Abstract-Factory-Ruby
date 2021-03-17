@@ -1,0 +1,2 @@
+class Personal_mercadona
+end
